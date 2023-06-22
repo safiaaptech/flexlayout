@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <style>
+        *{margin: 0;
+        padding: 0;}
+.h_container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 16px 6px;
+flex-wrap: wrap;
+        }
+        .h_container_heading{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .h_container a:hover{
+            color:blue;
+        }
+ 
+        h2{     
+            color: rgb(166, 17, 31);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+        .search_bar{
+            display: flex;
+            flex-wrap: wrap;
+            flex-shrink: 3;
+        }
+        .h_container a{
+color: black;
+        }
+        a{
+            text-decoration: none;
+            font-size: large;
+        }
+        .nav_container{
+display: flex;
+justify-content:center;
+align-items: center;
+color: aliceblue;
+padding: 6px 6px;
+gap: 4em;
+flex-wrap: wrap;
+        }
+
+        .nav_container img{
+            height: 30px;
+        }
+
+      
+ .third_container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+padding: 12px 4px;
+gap: 4em;
+}
+.third_container a{
+    font-size: larger;
+    color: black;
+}
+.third_container a:hover{
+    color: blue;
+}
+    .fourth_container{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 18px 48px 48px 68px;
+    }
+        .main{
+            padding: 10px 8px 8px 10px;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        h1{
+            color:rgb(241, 105, 196) ;
+        }
+        .formal{
+            font-size: 16px;
+            width:370px;
+            height:45px;
+        }
+        #Submit_button{
+            background-color: rgb(217, 171, 202);
+            font-size: larger;
+        }
+        #Submit_button:hover{
+            color: white;
+            background:  rgb(157, 144, 145);
+        }
+
+.f_container{
+    background-color: rgb(205, 190, 219);
+font-size: large;
+display: flex;
+justify-content:flex-end;
+align-items: center;
+flex-wrap: wrap;
+padding: 16px;
+gap: 4em;
+text-decoration: none;
+}
+.f_container a:hover{
+    color: blue;
+}
+.item_logo{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1em;
+    }
+    .f_container img{
+    height: 30px;
+}
+
+.f_container a{
+    color: black;
+}
+</style>
+</head>
+<body>
+<div class="h_container">
+<div class="h_container_heading"><div><img src="..\web page header feb assignment\images\women_shoe_logo-removebg-preview.png" width="150px" height="80px"/></div>
+    <div><h2>Women Footware <br/><center>All in One</center></h2></div>
+</div>
+<div><input type="search" placeholder="SEARCH" style="width: 200px; height: 30px;"/></div>
+        <div><a href="login_page.html">Log In</a></div>
+        <div><a href="sign_up.html">Sign Up</a></div>
+    </div>
+<div class="nav_container">
+    <div><a href="safia_latif_student1436106_home_page.html"><img src="..\web page header feb assignment\images\home colorless.png"/></a></div>
+    <div><a href="contact_us.html"><img src="..\web page header feb assignment\images\contact us.png"/></a></div>
+    <div><a href="about_us.html"><img src="..\web page header feb assignment\images\about us.png"/></a></div>
+    <div><a href="cart_page.html"><img src="..\web page header feb assignment\images\cart.png"></a></div>
+</div>
+<div class="third_container">
+<div><a href="ecs_page.html">ECS</a></div>
+<div><a href="borjan_page.html">Borjan</a></div>
+<div><a href="regal_page.html">Regal</a></div>
+<div><a href="stylo_page.html">Stylo</a></div>
+<div><a href="insignia_page.html">Insignia</a></div>
+</div>
+<hr/>
+<div class="fourth_container">
+<div class="main">
+    <form>
+<h1>Contact Us</h1>
+    <div>
+        <input class="formal" type="text" id="Name" placeholder="Enter your name" />
+    </div>
+    <div>
+        <input class="formal" type="email" id="Email" placeholder="Enter your Email" required="true" autocomplete="off"/>
+    </div>
+    <div>
+        <input class="formal" type="tel" id="Phone Number" placeholder="Enter your phone number"/>
+    </div>
+<div>
+<textarea class="formal" id="about" rows="3" placeholder="What's on your mind?"></textarea>
+</div>
+<div>
+<input class="formal" type="submit" id="Submit_button" value="Submit"/>
+</div>
+</form>
+</div>
+</div>
+<div class="f_container">
+    <div class="item_logo">
+        <div class="item_logo"><a href="https://www.facebook.com/profile.php?id=100090279585622" target="_blank"><img src="..\web page header feb assignment\images\facebook.png"/></a></div>
+        <div class="item_logo"><a href="https://www.instagram.com/safialatif1995/" target="_blank"><img src="..\web page header feb assignment\images\instagram.png"/></a></div>
+        <div class="item_logo"><a href="https://twitter.com/SafiaLatif1995" target="_blank"><img src="..\web page header feb assignment\images\twitter.png"/></a></div>
+    </div>
+    <div><a href="services_privacy_policy_page.html">Services & Privacy policy</a></div>
+    <div>Copyright &copy:Women footwear 2023</div>
+</div>
+</body>
+</html>
